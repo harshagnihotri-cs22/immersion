@@ -1,0 +1,60 @@
+.wishcard {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.wish__remove__item__icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wish__item__image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.wish__image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.wish__item__name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.wish__item__price {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.add__to__cart {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add__to__cart .MuiButton-root {
+  border-radius: 20px;
+  border-color: #FFE26E;
+  background-color: #000;
+  color: #FFE26E;
+  font-weight: 700;
+}
+
+.add__to__cart .MuiButton-root:hover {
+  background-color: #FFE26E;
+  border-color: #FFE26E;
+  color: black;
+}

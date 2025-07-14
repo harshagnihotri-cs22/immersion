@@ -1,0 +1,97 @@
+.register__card__container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  .register__card {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .register__header h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .register__inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reg__input__container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+  }
+  
+  .reg__input__container label {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  
+  .reg__input__container input {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .reg__input__container.error input {
+    border-color: red;
+    background-color: #fff5f5;
+  }
+  
+  .error__msg {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+  
+  .register__button__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .register__button__container button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #173fcf;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register__button__container button:hover {
+    background-color: #173fcf;
+  }
+  
+  .register__other__actions {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #555;
+  }
+  
+  .register__other__actions a {
+    color: #2196f3;
+    text-decoration: none;
+  }
+  
+  .register__other__actions a:hover {
+    text-decoration: underline;
+  }
+  

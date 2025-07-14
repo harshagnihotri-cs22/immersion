@@ -1,0 +1,104 @@
+/* LoginCard.css */
+
+.login__card {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.login__header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input__container {
+  margin-bottom: 1.2rem;
+}
+
+.input__container label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.input__container input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.2s;
+}
+
+.input__container.error input {
+  border-color: #e74c3c;
+}
+
+.error__text {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.btn__login {
+  width: 100%;
+  padding: 10px;
+  background-color: #2513c8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn__login:hover {
+  background-color: #2513c8;
+}
+
+.user__icon {
+  width: 60px;
+  height: 60px;
+  background-color: #2513c8;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.user__info {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.login__card p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.login__card a {
+  color: #3e6ff6;
+  text-decoration: none;
+}
+
+.login__card a:hover {
+  text-decoration: underline;
+}
